@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1" parallel="tests"
+       thread-count="2">
+    <listeners>
+        <listener class-name="base.WebDriverListener"/>
+    </listeners>
+
+    <test name="Dockerised Selenium Grid - chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="platform" value="linux"/>
+        <classes>
+            <class name="runner.RegressionTest"/>
+        </classes>
+    </test>
+
+    <test name="Dockerised Selenium Grid - firefox">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="platform" value="linux"/>
+        <classes>
+            <class name="runner.RegressionTest"/>
+        </classes>
+    </test>
+</suite>

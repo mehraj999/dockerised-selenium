@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Go to google page]]>
+    </line>
+    <line>
+      <![CDATA[Go to google page]]>
+    </line>
+    <line>
+      <![CDATA[Enter search eclipse]]>
+    </line>
+    <line>
+      <![CDATA[Enter search cucumber]]>
+    </line>
+    <line>
+      <![CDATA[Go to google page]]>
+    </line>
+    <line>
+      <![CDATA[Enter search selenium]]>
+    </line>
+    <line>
+      <![CDATA[Go to google page]]>
+    </line>
+    <line>
+      <![CDATA[Enter search cucumber]]>
+    </line>
+    <line>
+      <![CDATA[Go to google page]]>
+    </line>
+    <line>
+      <![CDATA[Enter search selenium]]>
+    </line>
+    <line>
+      <![CDATA[Go to google page]]>
+    </line>
+    <line>
+      <![CDATA[Enter search eclipse]]>
+    </line>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="37261" started-at="2020-06-17T10:53:38Z" finished-at="2020-06-17T10:54:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="CustomAbstractTestNGCucumberTests.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@285c08c8]" name="scenario" class="utilities.CustomAbstractTestNGCucumberTests"/>
+        <method signature="CustomAbstractTestNGCucumberTests.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@4264b240]" name="scenario" class="utilities.CustomAbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Dockerised Selenium Grid - chrome" duration-ms="29802" started-at="2020-06-17T10:53:38Z" finished-at="2020-06-17T10:54:08Z">
+      <class name="runner.RegressionTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RegressionTest@285c08c8]" name="setUpClass" is-config="true" duration-ms="270" started-at="2020-06-17T10:53:38Z" finished-at="2020-06-17T10:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@285c08c8]" name="scenario" duration-ms="29118" started-at="2020-06-17T10:53:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-17T10:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Eclipse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search in google for Eclipse"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Go to google page]]>
+            </line>
+            <line>
+              <![CDATA[Enter search eclipse]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@285c08c8]" name="scenario" duration-ms="29115" started-at="2020-06-17T10:53:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-17T10:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for Cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search in google for Cucumber and Selenium"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Go to google page]]>
+            </line>
+            <line>
+              <![CDATA[Enter search cucumber]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@285c08c8]" name="scenario" duration-ms="29393" started-at="2020-06-17T10:53:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-17T10:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for Selenium"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search in google for Cucumber and Selenium"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Go to google page]]>
+            </line>
+            <line>
+              <![CDATA[Enter search selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RegressionTest@285c08c8]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2020-06-17T10:54:08Z" finished-at="2020-06-17T10:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RegressionTest -->
+    </test> <!-- Dockerised Selenium Grid - chrome -->
+    <test name="Dockerised Selenium Grid - firefox" duration-ms="37261" started-at="2020-06-17T10:53:38Z" finished-at="2020-06-17T10:54:15Z">
+      <class name="runner.RegressionTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RegressionTest@4264b240]" name="setUpClass" is-config="true" duration-ms="270" started-at="2020-06-17T10:53:38Z" finished-at="2020-06-17T10:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@4264b240]" name="scenario" duration-ms="35100" started-at="2020-06-17T10:53:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-17T10:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for Cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search in google for Cucumber and Selenium"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Go to google page]]>
+            </line>
+            <line>
+              <![CDATA[Enter search cucumber]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@4264b240]" name="scenario" duration-ms="36226" started-at="2020-06-17T10:53:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-17T10:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for Selenium"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search in google for Cucumber and Selenium"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Go to google page]]>
+            </line>
+            <line>
+              <![CDATA[Enter search selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RegressionTest@4264b240]" name="scenario" duration-ms="36860" started-at="2020-06-17T10:53:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-17T10:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Eclipse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search in google for Eclipse"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Go to google page]]>
+            </line>
+            <line>
+              <![CDATA[Enter search eclipse]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RegressionTest@4264b240]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-06-17T10:54:15Z" finished-at="2020-06-17T10:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RegressionTest -->
+    </test> <!-- Dockerised Selenium Grid - firefox -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

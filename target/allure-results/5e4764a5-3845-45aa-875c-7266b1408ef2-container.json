@@ -1,0 +1,1 @@
+{"uuid":"5e4764a5-3845-45aa-875c-7266b1408ef2","name":"Scenario: Eclipse","children":["aebf233a-66dc-4c98-ba2d-39eff7639ea1"],"befores":[],"afters":[{"name":"ServiceHook.after(Scenario)","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1592391247631,"stop":1592391248091}],"links":[],"start":1592391230439,"stop":1592391248092}
