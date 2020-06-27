@@ -5,6 +5,8 @@ stages {
     stage('Test') {
         steps {
             echo 'Test Execution'
+            echo $M2_HOME
+            echo $PATH
             sh 'mvn clean test'
         }
     }
