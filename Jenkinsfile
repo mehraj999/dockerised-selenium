@@ -8,7 +8,7 @@ stages {
     stage('Test') {
         steps {
             echo 'Test Execution'
-            sh "mvn clean test"
+            sh 'mvn clean test'
         }
     }
     stage('reports') {
