@@ -13,15 +13,15 @@ With Selenium Grid, one server acts as the hub that routes JSON formatted test c
 image
 
 ### `Selenium grid as Docker Image`
-•	Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
-•	Scaling nodes up and down easily
-•	Portable and Reliable for CI
+Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
+Scaling nodes up and down easily
+Portable and Reliable for CI
 
 ### `Pre-Requisite`
-• Docker
-• Maven
-• Java 8 & above
-• Allure (for reporting)
+Docker
+Maven
+Java 8 & above
+Allure (for reporting)
 
 #### `Allure installation`
 
