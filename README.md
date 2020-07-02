@@ -1,34 +1,29 @@
 # Selenium Cucumber (Java) - Grid Dockerized
 
 ### Framework helps to -
-    Achieve Cross Browser and Parallel Testing at once
-    Dockerized Selenium Grid
-    Summarize result of Cross Browser & Parallel testing
+    - Achieve Cross Browser and Parallel Testing at once
+    - Dockerized Selenium Grid
+    - Summarize result of Cross Browser & Parallel testing
 
 ### Selenium Grid
 
     Selenium Grid is a smart proxy server for Selenium UI Tests. Its aim is to provide an easy way to run tests in parallel on multiple machines.
-
     With Selenium Grid, one server acts as the hub that routes JSON formatted test commands to one or more registered Grid nodes.
 
 ### Components of Selenium grid
-image
+
+![Description poster](/src/test/resources/download.png)
 
 ### Selenium grid as Docker Image
-    Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
-
-    Scaling nodes up and down easily
-
-    Portable and Reliable for CI
+    - Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
+    - Scaling nodes up and down easily
+    - Portable and Reliable for CI
 
 ### Pre-Requisite
-    Docker
-
-    Maven
-
-    Java 8 & above
-
-    Allure (for reporting)
+    * Docker
+    * Maven
+    * Java 8 & above
+    * Allure (for reporting)
 
 #### Allure installation
 
