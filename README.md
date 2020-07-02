@@ -2,9 +2,7 @@
 
 ### Framework helps to -
     Achieve Cross Browser and Parallel Testing at once
-
     Dockerized Selenium Grid
-
     Summarize result of Cross Browser & Parallel testing
 
 ### Selenium Grid
