@@ -36,9 +36,9 @@ Allure (for reporting)
 
 **Linux** (For debian-based repositories a PPA is provided)
 
-    `sudo apt-add-repository ppa:qameta/allure`
-    `sudo apt-get update `
-    `sudo apt-get install allure`
+    sudo apt-add-repository ppa:qameta/allure
+    sudo apt-get update
+    sudo apt-get install allure
 
 
 **Mac OS X** (For Mas OS, automated installation is available via Homebrew)
@@ -54,13 +54,16 @@ Allure (for reporting)
 
 1. Spin up docker images
 
-    `$ docker-compose up -d --scale chrome=2 --scale firefox=2`
+    $ docker-compose up -d --scale chrome=2 --scale firefox=2
+    
     Verify running containers '`docker ps -a`'
 
 2. Test Execution
-    `$ mvn clean test`
+
+    $ mvn clean test
 
 3. Allure report generation
-    `$ allure serve target/allure-results`
+
+    $ allure serve target/allure-results
 
 
