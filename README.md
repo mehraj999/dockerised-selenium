@@ -12,7 +12,7 @@
 
 ### Components of Selenium grid
 
-![Description poster](/src/test/resources/download.jpeg)
+![Description poster](/src/test/resources/readme_poster.png)
 
 ### Selenium grid as Docker Image
     - Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
