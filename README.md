@@ -1,36 +1,36 @@
 # Selenium Cucumber (Java) - Grid Dockerized
 
 ### Framework helps to -
-Achieve Cross Browser and Parallel Testing at once
+    Achieve Cross Browser and Parallel Testing at once
 
-Dockerized Selenium Grid
+    Dockerized Selenium Grid
 
-Summarize result of Cross Browser & Parallel testing
+    Summarize result of Cross Browser & Parallel testing
 
 ### Selenium Grid
 
-Selenium Grid is a smart proxy server for Selenium UI Tests. Its aim is to provide an easy way to run tests in parallel on multiple machines.
+    Selenium Grid is a smart proxy server for Selenium UI Tests. Its aim is to provide an easy way to run tests in parallel on multiple machines.
 
-With Selenium Grid, one server acts as the hub that routes JSON formatted test commands to one or more registered Grid nodes.
+    With Selenium Grid, one server acts as the hub that routes JSON formatted test commands to one or more registered Grid nodes.
 
 ### Components of Selenium grid
 image
 
 ### Selenium grid as Docker Image
-Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
+    Docker provider the convenient way to set up and scale Selenium Grid infrastructure in a unit known as Container. 
 
-Scaling nodes up and down easily
+    Scaling nodes up and down easily
 
-Portable and Reliable for CI
+    Portable and Reliable for CI
 
 ### Pre-Requisite
-Docker
+    Docker
 
-Maven
+    Maven
 
-Java 8 & above
+    Java 8 & above
 
-Allure (for reporting)
+    Allure (for reporting)
 
 #### Allure installation
 
@@ -52,17 +52,17 @@ Allure (for reporting)
 
 ### How to Run
 
-1. Spin up docker images
+Spin up docker images
 
     $ docker-compose up -d --scale chrome=2 --scale firefox=2
     
-    Verify running containers '`docker ps -a`'
+    $ docker ps -a
 
-2. Test Execution
+Test Execution
 
-    $ mvn clean test
+    mvn clean test
 
-3. Allure report generation
+Allure report generation
 
     $ allure serve target/allure-results
 
