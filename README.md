@@ -36,37 +36,31 @@ Allure (for reporting)
 
 **Linux** (For debian-based repositories a PPA is provided)
 
-`sudo apt-add-repository ppa:qameta/allure`
-
-`sudo apt-get update `
-
-`sudo apt-get install allure`
+    `sudo apt-add-repository ppa:qameta/allure`
+    `sudo apt-get update `
+    `sudo apt-get install allure`
 
 
 **Mac OS X** (For Mas OS, automated installation is available via Homebrew)
 
-brew install allure
+    brew install allure
 
 **Windows** (For Windows, Allure is available from the Scoop commandline-installer)
 
-To install Allure, download and install Scoop and then execute in the Powershell:
-
-for more information - https://docs.qameta.io/allure/
+    To install Allure, download and install Scoop and then execute in the Powershell:
+    for more information - https://docs.qameta.io/allure/
 
 ### How to Run
 
 1. Spin up docker images
 
     `$ docker-compose up -d --scale chrome=2 --scale firefox=2`
-
-Verify running containers 'docker ps -a'
+    Verify running containers '`docker ps -a`'
 
 2. Test Execution
-
     `$ mvn clean test`
 
 3. Allure report generation
-
     `$ allure serve target/allure-results`
 
 
